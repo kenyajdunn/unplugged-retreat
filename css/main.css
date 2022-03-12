@@ -87,6 +87,69 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ------------------ Base Header - Footer Styles -----------*/
+
+header,
+footer {
+
+}
+
+/* Header Styles */
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+header figure {
+
+}
+
+.header-divider {
+  
+}
+
+header nav {
+
+}
+
+/* ------------------ Mobile Styles - Homepage -----------*/
+
+.hero-area {
+
+}
+
+aside {
+
+}
+
+/* Footer Styles */
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
