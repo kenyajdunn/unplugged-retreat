@@ -365,7 +365,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  background-color: #527158;
 }
 
 .contact-section {
@@ -373,7 +373,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -389,6 +389,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 
 }
 
@@ -402,11 +403,16 @@ input[type=button] {
 }
 
 .faq h2 {
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px; 
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 
@@ -528,6 +534,10 @@ h3 {
     width: 100%;
   }
 
+  .header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 20%;
   }
@@ -606,7 +616,6 @@ h3 {
   }
 
   /* Footer */
-
   .footer .content-wrapper{
     width: 65%;
     margin: 100px 0;
@@ -620,6 +629,15 @@ h3 {
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
   }
 
   footer .copyright {
@@ -651,6 +669,10 @@ h3 {
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
   
   /* ==========================================================================
   FAQ Page
@@ -668,17 +690,43 @@ h3 {
     width: 100%;
   }
 
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 1.125;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+
+  header {
+    padding: 15px 0;
+  }
+
   .content-wrapper {
     max-width: 960px;
   }
 
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
+  }
+
   /* Hero Area */
   .hero-area h1 {
-    width: 60%;
+    font-size: 3.75em;
+    width: 80%;
   }
 
   /* Aside */ 
@@ -689,6 +737,10 @@ h3 {
   aside .content-wrapper .form-description, 
   aside .content-wrapper .form {
     width: 30%;
+  }
+
+  .form-description p {
+    font-size: 1.125em;
   }
 
   /* Features */ 
@@ -705,6 +757,15 @@ h3 {
     width: 42%;
   }
 
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
+  /* Footer */
+  .footer h4 {
+    font-size: 1.875em;
+  }
+
   
   /* ==========================================================================
   About Page
@@ -713,6 +774,11 @@ h3 {
   .mission h2, 
   .contact-section .content-wrapper {
     width: 95%;
+    font-size: 3em;
+  }
+
+  .contact-content h4 {
+    font-size: 1.5em;
   }
 
 
@@ -723,6 +789,13 @@ h3 {
 
   .faq h2 {
     width: 100%;
+    font-size: 3em;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
   }
 
 }
