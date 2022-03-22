@@ -621,10 +621,11 @@ h3 {
     margin: 100px 0;
   }
 
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
   }
 
   footer .contact {
@@ -731,7 +732,7 @@ h3 {
 
   /* Aside */ 
   aside .content-wrapper {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-description, 
@@ -772,13 +773,13 @@ h3 {
   ========================================================================== */
 
   .mission h2, 
-  .contact-section .content-wrapper {
+  .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
   }
 
   .contact-content h4 {
-    font-size: 1.5em;
+    font-size: 1.875em;
   }
 
 
