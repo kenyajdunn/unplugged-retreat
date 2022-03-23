@@ -291,6 +291,7 @@ input[type=text] {
 }
 
 /* Dark green button */
+
 input[type=button] {
   width: 100%;
   padding: 20px 0;
@@ -318,6 +319,11 @@ input[type=button] {
 
  .features h2 {
    margin-bottom: 60px; 
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features .features-items {
