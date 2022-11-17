@@ -129,7 +129,7 @@ p {
 }
 
 img {
-
+  /* width: 100%; */
 }
 
 figure {
@@ -244,6 +244,8 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/header-img.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -296,6 +298,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/background-img.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
