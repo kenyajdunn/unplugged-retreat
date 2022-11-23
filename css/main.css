@@ -660,6 +660,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 65%;
   }
@@ -769,6 +773,9 @@ input[type=button] {
     width: 95%;
   }
 
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   /* ==========================================================================
     FAQ Page
